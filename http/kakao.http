@@ -1,0 +1,5 @@
+# 카카오 인가 코드 요청 API (Ref. https://developers.kakao.com/docs/latest/ko/kakaologin/rest-api#request-code)
+GET https://kauth.kakao.com/oauth/authorize?
+    client_id=
+    &redirect_uri=http://localhost:3000/oauth/code/kakao
+    &response_type=code
